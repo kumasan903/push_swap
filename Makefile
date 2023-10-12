@@ -8,7 +8,7 @@ all	: $(NAME)
 
 $(NAME)	: $(OBJS)
 	$(MAKE) -C libft
-	$(CC) $(CFLAGS) $(OJBS) libft/libft.a -o $(NAME)
+	$(CC) $(CFLAGS) $(OBJS) libft/libft.a -o $(NAME)
 
 clean	:
 	$(RM) $(OBJS)
