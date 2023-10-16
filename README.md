@@ -1,2 +1,3 @@
 ## TO-DO
--[] input INT range check
+なんかINT_MIN未満のときうまくいかない
+重複のチェックしてない
