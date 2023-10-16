@@ -1,5 +1,5 @@
 NAME	= push_swap
-SRCS	= main.c lib.c standard_case.c
+SRCS	= main.c lib.c standard_case.c ft_atol.c
 OBJS	= $(SRCS:.c=.o)
 CC		= gcc
 CFLAGS	= -Wall -Wextra -Werror

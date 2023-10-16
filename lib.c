@@ -37,5 +37,7 @@ int	ft_str_isint(char *str)
 		return (0);
 	if (ft_strlen_s(str) > 11 || (ft_strlen_s(str) > 10 && str[0] != '-'))
 		return (0);
+	if (ft_atol(str) > INT_MAX || ft_atoi(str) < INT_MIN)
+		return (0);
 	return (1);
 }
