@@ -6,7 +6,7 @@
 /*   By: skawanis <skawanis@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 00:48:15 by skawanis          #+#    #+#             */
-/*   Updated: 2023/10/13 00:48:23 by skawanis         ###   ########.fr       */
+/*   Updated: 2023/10/28 12:35:03 by skawanis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int	ft_str_isint(char *str)
 		return (0);
 	if (ft_strlen_s(str) > 11 || (ft_strlen_s(str) > 10 && str[0] != '-'))
 		return (0);
-	if (ft_atol(str) > INT_MAX || ft_atoi(str) < INT_MIN)
+	if (ft_atol(str) > INT_MAX || ft_atol(str) < INT_MIN)
 		return (0);
 	return (1);
 }
